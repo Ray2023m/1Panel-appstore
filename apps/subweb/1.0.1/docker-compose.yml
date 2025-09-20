@@ -2,7 +2,6 @@ services:
   subweb:
     image: tselamkong/subweb:1.0.1
     container_name: subweb
-    restart: always
     ports:
       - "${PANEL_APP_PORT_HTTP}:80"
     environment:
