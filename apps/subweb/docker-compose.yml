@@ -1,0 +1,21 @@
+services:
+  subweb:
+    image: tselamkong/subweb:v1
+    container_name: subweb
+    restart: always
+    ports:
+      - "${PANEL_APP_PORT_HTTP}:80"
+    environment:
+      - PUID=0 
+      - PGID=0
+      - TZ=Asia/Shanghai
+    restart: always
+ 
+    networks:
+      - 1panel-network
+    labels:
+      createdBy: "Apps"
+
+networks:
+  1panel-network:
+    external: true

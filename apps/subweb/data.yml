@@ -1,0 +1,20 @@
+name: subweb
+tags:
+  - 实用工具
+title: subweb 是基于 subconverter 订阅转换的前端项目,方便用户快速生成各平台的订阅链接
+description:
+  en: Utility to convert between various subscription format
+  zh: subweb 是基于 subconverter 订阅转换的前端项目,方便用户快速生成各平台的订阅链接
+additionalProperties:
+  key: subweb
+  name: subweb
+  tags:
+    - Tool
+  shortDescZh: subweb 是基于 subconverter 订阅转换的前端项目,方便用户快速生成各平台的订阅链接
+  shortDescEn: Utility to convert between various subscription format
+  type: website
+  crossVersionUpdate: true
+  limit: 0
+  website: https://github.com/stilleshan/subweb
+  github: https://github.com/stilleshan/subweb
+  document: https://docs.example.com
