@@ -1,6 +1,6 @@
 services:
   subweb:
-    image: tselamkong/subweb:1.0.1
+    image: tselamkong/subweb:1.0.2
     container_name: subweb
     ports:
       - "${PANEL_APP_PORT_HTTP}:80"
