@@ -2,7 +2,8 @@
 
 ### 声明
 #### 整理来源于网上资源,主要方便个人使用.
-     来源于:https://github.com/okxlin/appstore;https://github.com/arch3rPro/1Panel-Tools;特此感谢!
+     来源于:https://github.com/okxlin/appstore;
+           https://github.com/arch3rPro/1Panel-Appstore;特此感谢!
 
 ### 🚀 使用方法
 
