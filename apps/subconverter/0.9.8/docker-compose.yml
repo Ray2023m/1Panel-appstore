@@ -1,6 +1,6 @@
 services:
   subconverter:
-    image: docker pull asdlokj1qpi23/subconverter:0.9.8
+    image: asdlokj1qpi23/subconverter:0.9.8
     container_name: ${CONTAINER_NAME}
     restart: always
     networks:
