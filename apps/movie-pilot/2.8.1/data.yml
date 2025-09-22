@@ -16,7 +16,7 @@ additionalProperties:
           value: "none"
         - label: 1panel-network
           value: "1panel-network"
-    - default: "/home/movie-pilot"
+    - default: "/home/moviepilot"
       edit: true
       envKey: MOVIEPILOT_ROOT_PATH
       labelZh: 数据持久化路径
