@@ -4,7 +4,8 @@
 #### 整理来源于网上资源,主要方便个人使用.
      来源于:https://github.com/okxlin/appstore;
            https://github.com/arch3rPro/1Panel-Appstore;
-           https://github.com/willow-god/appstore;特此感谢!
+           https://github.com/willow-god/appstore;
+           https://github.com/QYG2297248353/appstore-1panel;特此感谢!
    
 ### 🚀 使用方法
 
