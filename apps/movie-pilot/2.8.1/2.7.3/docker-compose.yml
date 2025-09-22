@@ -4,19 +4,21 @@ networks:
 
 services:
   movie-pilot:
-    image: jxxghp/moviepilot:2.8.0
+    image: jxxghp/moviepilot:2.8.1
     container_name: ${CONTAINER_NAME}
     labels:
       createdBy: "Apps"
     restart: always
     stdin_open: true
     tty: true
-    network_mode: ${NETWORK_MODE}
+    networks:
+      - 1panel-network
     ports:
-      - ${PANEL_APP_PORT_HTTP}:${PANEL_APP_PORT_HTTP}
-      - ${PANEL_APP_PORT_API}:${PANEL_APP_PORT_API}
+      - ${PANEL_APP_PORT_HTTP}:3000
+      - ${PANEL_APP_PORT_API}:3001
     env_file:
       - ${GLOBAL_ENV_FILE:-/etc/1panel/envs/global.env}
+      - ${APP_ENV_FILE:-/etc/1panel/envs/movie-pilot/movie-pilot.env}
       - ${ENV_FILE:-/etc/1panel/envs/default.env}
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
@@ -27,11 +29,11 @@ services:
       - ${CUSTOM_MOUNT_DIRECTORY_2:-./default_mount_2}:${CUSTOM_MOUNT_DIRECTORY_2:-/default_mount_2}
       - ${CUSTOM_MOUNT_DIRECTORY_3:-./default_mount_3}:${CUSTOM_MOUNT_DIRECTORY_3:-/default_mount_3}
     environment:
-      - NGINX_PORT=${PANEL_APP_PORT_HTTP}
-      - PORT=${PANEL_APP_PORT_API}
-      - DEBUG=false
-      - DEV=false
-      - LOG_LEVEL=INFO
+      - NGINX_PORT=3000
+      - PORT=3001
+      - PUID=0
+      - PGID=0
+      - UMASK=022
     logging:
       driver: json-file
       options:
