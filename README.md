@@ -1,7 +1,7 @@
 # 1Panel-appstore
 
 ### 声明
-#### 整理来源于网上资源,主要方便个人使用.
+#### 整理来源于网上资源,集成个人常用应用,方便个人使用.
      来源于:https://github.com/okxlin/appstore;
            https://github.com/arch3rPro/1Panel-Appstore;
            https://github.com/willow-god/appstore;
@@ -35,3 +35,5 @@ rm -rf "$TMP_DIR"
 
 echo "✅ 应用商店数据已更新完成"
 ```
+### 📊 项目统计
+![Alt](https://repobeats.axiom.co/api/embed/15348dc305f26710da5ba1f38b3504ea1955ca78.svg "Repobeats analytics image")
