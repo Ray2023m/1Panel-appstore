@@ -1,0 +1,19 @@
+name: MySpeed
+tags:
+  - 工具
+title: 网页测速工具
+description: 网页测速工具
+additionalProperties:
+  key: myspeed
+  name: myspeed
+  tags:
+    - Tool
+  shortDescZh: 网页测速工具
+  shortDescEn: Web Speed Test Tool
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://myspeed.dev/
+  github: https://github.com/gnmyt/MySpeed
+  document: https://github.com/gnmyt/MySpeed/blob/development/README.md

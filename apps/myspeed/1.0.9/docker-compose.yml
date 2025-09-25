@@ -1,0 +1,18 @@
+services:
+  myspeed:
+    image: germannewsmaker/myspeed:1.0.9
+    container_name: MySpeed
+    ports:
+      - "${PANEL_APP_PORT_HTTP}:5216"
+    volumes:
+      - ./myspeed:/myspeed/data
+    restart: unless-stopped
+
+    networks:
+      - 1panel-network
+    labels:
+      createdBy: "Apps"
+
+networks:
+  1panel-network:
+    external: true
