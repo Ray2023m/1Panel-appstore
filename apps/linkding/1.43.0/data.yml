@@ -10,7 +10,7 @@ additionalProperties:
       edit: true
       rule: paramPort
     - default: admin
-      envKey: LD_SUPERUSER_NAME=
+      envKey: LD_SUPERUSER_NAME
       label:
         en: name
         zh: 用户名
@@ -20,7 +20,7 @@ additionalProperties:
       rule: paramCommon
       values: []
     - default: adminadmin
-      envKey: LD_SUPERUSER_PASSWORD=
+      envKey: LD_SUPERUSER_PASSWORD
       label:
         en: password
         zh: 密码
