@@ -35,4 +35,5 @@ rm -rf "$TMP_DIR"
 
 echo "✅ 应用商店数据已更新完成"
 ```
+### 项目统计
 ![Alt](https://repobeats.axiom.co/api/embed/15348dc305f26710da5ba1f38b3504ea1955ca78.svg "Repobeats analytics image")
