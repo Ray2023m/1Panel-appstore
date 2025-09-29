@@ -1,0 +1,22 @@
+name: linkding
+tags:
+  - 实用工具
+title: 一个自托管的书签管理器，旨在最小、快速且易于设置。
+description:
+  en: A self-hosted bookmark manager designed to be minimal, fast, and easy to set
+    up.
+  zh: 一个自托管的书签管理器，旨在最小、快速且易于设置。
+additionalProperties:
+  key: linkding
+  name: linkding
+  tags:
+    - Tool
+  shortDescZh: 一个自托管的书签管理器，旨在最小、快速且易于设置。
+  shortDescEn: A self-hosted bookmark manager designed to be minimal, fast, and
+    easy to set up.
+  type: website
+  crossVersionUpdate: true
+  limit: 0
+  website: https://linkding.link/
+  github: https://github.com/sissbruecker/linkding
+  document: https://github.com/sissbruecker/linkding/blob/master/README.md
