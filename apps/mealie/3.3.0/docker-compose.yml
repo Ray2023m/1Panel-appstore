@@ -1,0 +1,21 @@
+services:
+  mealie:
+    image: hkotel/mealie:v3.3.0
+    container_name: ${CONTAINER_NAME}
+    restart: always
+    volumes:
+      - ./mealie-data:/app/data/
+    ports:
+      - ${PANEL_APP_PORT_HTTP}:9000
+    environment:
+      ALLOW_SIGNUP: "false"
+      LOG_LEVEL: "DEBUG"
+      DB_ENGINE: sqlite 
+    networks:
+      - 1panel-network
+    labels:
+      createdBy: "Apps"
+
+networks:
+  1panel-network:
+    external: true
