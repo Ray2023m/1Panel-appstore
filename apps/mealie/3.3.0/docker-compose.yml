@@ -1,6 +1,6 @@
 services:
   mealie:
-    image: hkotel/mealie:v3.3.0
+    image: hkotel/mealie:v3.3.1
     container_name: ${CONTAINER_NAME}
     restart: always
     volumes:
