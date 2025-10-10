@@ -1,10 +1,3 @@
-[![Latest Release][latest-release-shield]][latest-release-url]
-[![Contributors][contributors-shield]][contributors-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![AGPL License][license-shield]][license-url]
-[![Docker Pulls][docker-pull]][docker-url]
-[![GHCR Pulls][ghcr-pulls]][ghcr-url]
 
 <!-- PROJECT LOGO -->
 <br />
