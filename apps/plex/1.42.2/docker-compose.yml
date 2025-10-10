@@ -22,9 +22,9 @@ services:
     - ${PANEL_APP_PORT_HTTP}:32400
     restart: always
     volumes:
-    - ${PLEX_ROOT_PATH}/config:/config
-    - ${PLEX_ROOT_PATH}/tv:/tv
-    - ${PLEX_ROOT_PATH}/movies:/movies
+    - ./config:/config
+    - ./tv:/tv
+    - ./movies:/movies
     - ${CUSTOM_MOUNT_DIRECTORY_1:-./default_mount_1}:${CUSTOM_MOUNT_DIRECTORY_1:-/default_mount_1}
     - ${CUSTOM_MOUNT_DIRECTORY_2:-./default_mount_2}:${CUSTOM_MOUNT_DIRECTORY_2:-/default_mount_2}
     - ${CUSTOM_MOUNT_DIRECTORY_3:-./default_mount_3}:${CUSTOM_MOUNT_DIRECTORY_3:-/default_mount_3}
