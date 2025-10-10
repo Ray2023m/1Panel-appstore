@@ -14,9 +14,9 @@ additionalProperties:
   crossVersionUpdate: true
   limit: 0
   recommend: 0
-  website: https://github.com/LunaTechLab/MoonTV
-  github: https://github.com/LunaTechLab/MoonTV
-  document: https://github.com/LunaTechLab/MoonTV#readme
+  website: https://github.com/MoonTechLab/LunaTV
+  github: https://github.com/MoonTechLab/LunaTV
+  document: https://github.com/MoonTechLab/LunaTV#readme
   description:
     en: 🎬 MoonTV is an out-of-the-box, cross-platform video aggregation player built with Next.js 14, Tailwind CSS, and TypeScript. It supports multi-source search, online playback, sync of favorites and watch history, local/cloud storage, and more.
     zh: 🎬 MoonTV 是一个开箱即用的、跨平台的影视聚合播放器，基于 Next.js 14 + Tailwind CSS + TypeScript 构建，支持多资源搜索、在线播放、收藏同步、播放记录、本地/云端存储等功能。
