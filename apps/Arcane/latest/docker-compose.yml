@@ -12,8 +12,8 @@ services:
       - APP_URL=http://localhost:3552
       - PUID=1000
       - PGID=1000
-      - ENCRYPTION_KEY='${PANEL_APP_ENCRYPTION_KEY}'
-      - JWT_SECRET='${PANEL_APP_JWT_SECRET}'
+      - ENCRYPTION_KEY=${PANEL_APP_ENCRYPTION_KEY}
+      - JWT_SECRET=${PANEL_APP_JWT_SECRET}
     restart: unless-stopped
     networks:
       - 1panel-network
