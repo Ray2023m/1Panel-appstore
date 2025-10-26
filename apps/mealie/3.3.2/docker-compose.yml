@@ -16,7 +16,7 @@ services:
       PUID: 1000
       PGID: 1000
       TZ: Asia/Shanghai
-      BASE_URL:${PANEL_APP_BASE_URL} 
+      BASE_URL: ${PANEL_APP_BASE_URL} 
 
     networks:
       - 1panel-network
