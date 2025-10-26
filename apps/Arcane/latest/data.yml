@@ -1,0 +1,29 @@
+additionalProperties:
+  formFields:
+    - default: "8080"
+      envKey: PANEL_APP_PORT_HTTP
+      label:
+        en: Port
+        zh: 端口
+      required: true
+      type: number
+      edit: true
+      rule: paramPort
+    - default: 0d77cf455b991df29f5cb3f82a555dd8e292af2cfd6774d243395fc28fb366ec
+      envKey: PANEL_APP_ENCRYPTION_KEY
+      label:
+        en: ENCRYPTION_KEY
+        zh: 数据加密 (32位)
+      required: true
+      type: password
+      edit: true
+      values: []
+    - default: d6a26035f0d44638131492ac08135efa5edab6e9f3170a9d71f5c25567f39694
+      envKey: PANEL_APP_JWT_SECRET
+      label:
+        en: JWT_SECRET
+        zh: JWT 鉴权用的签名密钥
+      required: true
+      type: password
+      edit: true
+      values: []

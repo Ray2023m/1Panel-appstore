@@ -1,0 +1,20 @@
+name: Arcane
+tags:
+  - 实用工具
+title: 现代 Docker 管理， 专为每个人设计。
+description:
+  en: Modern Docker Management, Designed for Everyone.
+  zh: 现代 Docker 管理， 专为每个人设计。
+additionalProperties:
+  key: Arcane
+  name: Arcane
+  tags:
+    - Tool
+  shortDescZh: 现代 Docker 管理， 专为每个人设计。
+  shortDescEn: Modern Docker Management, Designed for Everyone.
+  type: website
+  crossVersionUpdate: true
+  limit: 0
+  website: https://getarcane.app
+  github: https://github.com/ofkm/arcane
+  document: https://getarcane.app/docs
