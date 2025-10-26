@@ -9,7 +9,7 @@ additionalProperties:
       type: number
       edit: true
       rule: paramPort
-    - default: c3b91ca6b835e92276fed9a1d261033afc0a710e17db4fbe8a7239d3640b9056
+    - default: QYmxTtkCG7H9WZZKoN5HRIj2Izjk2fbAOThGkbUBt0s=
       envKey: PANEL_APP_ENCRYPTION_KEY
       label:
         en: ENCRYPTION_KEY
@@ -18,7 +18,7 @@ additionalProperties:
       type: password
       edit: true
       values: []
-    - default: d6a26035f0d44638131492ac08135efa5edab6e9f3170a9d71f5c25567f39694
+    - default: rzZZ4Wg8bvFzNJEw2USKXClwozaLRy+aLmzcIG54ocs=
       envKey: PANEL_APP_JWT_SECRET
       label:
         en: JWT_SECRET
