@@ -27,3 +27,13 @@ additionalProperties:
       type: password
       edit: true
       values: []
+    - default: http://localhost
+      envKey: PANEL_APP_ARCANE_URL
+      label:
+        en: localhost
+        zh: Arcone 后台管理地址
+      required: true
+      type: text
+      edit: true
+      rule: paramExtUrl
+      values: []

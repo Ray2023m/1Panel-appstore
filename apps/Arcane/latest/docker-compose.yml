@@ -9,7 +9,7 @@ services:
       - ./data:/app/data
       - ./data/projects:/app/data/projects
     environment:
-      - APP_URL=http://localhost:3552
+      - APP_URL=${PANEL_APP_ARCANE_URL}:3552
       - PUID=1000
       - PGID=1000
       - ENCRYPTION_KEY=${PANEL_APP_ENCRYPTION_KEY}
