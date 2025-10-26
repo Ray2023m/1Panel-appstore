@@ -1,0 +1,20 @@
+name: Helios
+tags:
+  - 实用工具
+title: Helios 是 Selene 所需 API 的 golang 实现。设计目标是单容器、单用户、最小化。
+description:
+  en: Helios 是 Selene 所需 API 的 golang 实现。设计目标是单容器、单用户、最小化。
+  zh: Helios 是 Selene 所需 API 的 golang 实现。设计目标是单容器、单用户、最小化。
+additionalProperties:
+  key: Helios
+  name: Helios
+  tags:
+    - Tool
+  shortDescZh: Helios 是 Selene 所需 API 的 golang 实现。设计目标是单容器、单用户、最小化。
+  shortDescEn: Helios 是 Selene 所需 API 的 golang 实现。设计目标是单容器、单用户、最小化。
+  type: website
+  crossVersionUpdate: true
+  limit: 0
+  website: https://github.com/MoonTechLab/Helios
+  github: https://github.com/MoonTechLab/Helios
+  document: https://github.com/MoonTechLab/Helios

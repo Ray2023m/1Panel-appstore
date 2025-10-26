@@ -1,0 +1,21 @@
+services:
+  helios:
+    image: ghcr.io/moontechlab/helios:latest
+    container_name: ${CONTAINER_NAME}
+    ports:
+      - "${PANEL_APP_PORT_HTTP}:8080"
+    environment:
+      - USERNAME=${PANEL_APP_HELIOS_USERNAME}
+      - PASSWORD=${PANEL_APP_HELIOS_PASSWORD}
+      - SUBSCRIPTION_URL=${PANEL_APP_HELIOS_URL}
+    volumes:
+      - ./data:/data
+    restart: unless-stopped
+    networks:
+      - 1panel-network
+    labels:
+      createdBy: "Apps"
+
+networks:
+  1panel-network:
+    external: true
