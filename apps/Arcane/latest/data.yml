@@ -9,7 +9,7 @@ additionalProperties:
       type: number
       edit: true
       rule: paramPort
-    - default: 0d77cf455b991df29f5cb3f82a555dd8e292af2cfd6774d243395fc28fb366ec
+    - default: c3b91ca6b835e92276fed9a1d261033afc0a710e17db4fbe8a7239d3640b9056
       envKey: PANEL_APP_ENCRYPTION_KEY
       label:
         en: ENCRYPTION_KEY
