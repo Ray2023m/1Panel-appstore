@@ -1,15 +1,3 @@
-<p align="center">
-  <img src=".github/assets/img/PNG-3.png" alt="Arcane Logo" width="500" />
-  <p style="padding-top: 5px;" align="center">Modern Docker Management, Designed for Everyone.</p>
-</p>
-
-<p style="padding-top: 5px;" align="center">
-Arcane is designed to be an easy and modern Docker management platform, built with everybody in mind. The goal of Arcane is to be built for and by the community to make sure nobody feels left out or behind with their specific features or processes.
-</p>
-
-<img width="1685" alt="image" align="center" src=".github/assets/arcane.jpeg" />
-
----
 
 ## Documentation
 
