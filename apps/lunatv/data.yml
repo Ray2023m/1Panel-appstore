@@ -1,11 +1,11 @@
-name: MoonTV
+name: LunaTV
 tags:
   - 多媒体
 title: 开箱即用的跨平台影视聚合播放器
-description: 🎬 MoonTV 是一个开箱即用的、跨平台的影视聚合播放器，支持多资源搜索、在线播放、收藏同步、播放记录等功能。
+description: 🎬 LunaTV 是一个开箱即用的、跨平台的影视聚合播放器，支持多资源搜索、在线播放、收藏同步、播放记录等功能。
 additionalProperties:
-  key: moontv
-  name: MoonTV
+  key: lunatv
+  name: LunaTV
   tags:
     - Media
   shortDescZh: 开箱即用的跨平台影视聚合播放器
