@@ -1,6 +1,6 @@
 services:
   moontv:
-    image: ghcr.io/szemeng76/lunatv:5.7.1
+    image: ghcr.io/szemeng76/lunatv:5.8.0
     container_name: ${CONTAINER_NAME}
     restart: always
 
