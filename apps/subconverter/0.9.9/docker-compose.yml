@@ -1,6 +1,6 @@
 services:
   subconverter:
-    image: asdlokj1qpi23/subconverter:0.9.8
+    image: asdlokj1qpi23/subconverter:0.9.9
     container_name: ${CONTAINER_NAME}
     restart: always
     networks:
