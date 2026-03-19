@@ -2,10 +2,10 @@ additionalProperties:
   formFields:
     - default: "2048"
       envKey: PANEL_APP_PORT_HTTP
+      label:
+        en: Port
+        zh: 端口
       required: true
       type: number
-      labelEn: Port
-      labelZh: 端口
       edit: true
       rule: paramPort
-      random: true
