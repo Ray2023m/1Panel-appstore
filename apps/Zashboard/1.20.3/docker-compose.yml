@@ -1,5 +1,5 @@
 services:
-  Zashboard:
+  zashboard:
     image: ghcr.io/liandu2024/ange-clashboard:v1.20.3
     container_name: ${CONTAINER_NAME}
     restart: unless-stopped
