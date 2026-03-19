@@ -1,21 +1,18 @@
-name: Zashboard
+name: zashboard
 tags:
   - 实用工具
-title: AnGe-ClashBoard 是一个基于 Vue 3 + TypeScript + Vite 的 Clash 面板，面向 Clash
-  API、Mihomo、OpenClash、Nikki 和 sing-box 的运行态管理、观测与排错。
+title: zashboard 适配 clashmeta 控制 面板
 description:
-  en: AnGe-ClashBoard
-  zh: AnGe-ClashBoard 是一个基于 Vue 3 + TypeScript + Vite 的 Clash 面板，面向 Clash
-    API、Mihomo、OpenClash、Nikki 和 sing-box 的运行态管理、观测与排错。
+  en: zashboard
+  zh: zashboard 适配 clashmeta 控制 面板
 additionalProperties:
-  key: "Zashboard "
-  name: Zashboard
+  key: "zashboard "
+  name: zashboard
   tags:
     - Tool
-  shortDescZh: AnGe-ClashBoard 是一个基于 Vue 3 + TypeScript + Vite 的 Clash 面板，面向 Clash
-    API、Mihomo、OpenClash、Nikki 和 sing-box 的运行态管理、观测与排错。
-  shortDescEn: AnGe-ClashBoard
-  type: website
+  shortDescZh: zashboard 适配 clashmeta 控制 面板
+  shortDescEn: zashboard
+  type: tool
   crossVersionUpdate: true
   limit: 0
   website: https://github.com/liandu2024/AnGe-ClashBoard
