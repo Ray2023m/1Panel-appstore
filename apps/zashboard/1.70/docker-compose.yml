@@ -1,6 +1,6 @@
 services:
   zashboard:
-    image: ghcr.io/liandu2024/ange-clashboard:v1.70
+    image: ghcr.io/liandu2024/ange-clashboard:v1.71
     container_name: ${CONTAINER_NAME}
     ports:
       - ${PANEL_APP_PORT_HTTP}:2048
